@@ -1,0 +1,23 @@
+{
+  "name": "blog",
+  "version": "0.0.1",
+  "description": "personal blog for swj",
+  "main": "echo non",
+  "scripts": {
+    "test": "echo no test",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suhaotian/blog.git"
+  },
+  "keywords": [
+    "blog",
+    "swj"
+  ],
+  "author": "swj",
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "^1.0.0"
+  }
+}
