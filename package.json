@@ -5,7 +5,7 @@
   "main": "echo non",
   "scripts": {
     "test": "echo no test",
-    "deploy": "gh-pages -d dist"
+    "deploy": "cd hexo && hexo generate && cd .. && gh-pages -d hexo/public"
   },
   "repository": {
     "type": "git",
