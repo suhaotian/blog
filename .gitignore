@@ -6,7 +6,6 @@ yarn-debug.log*
 yarn-error.log*
 
 dist
-hexo
 build
 hexo/node_modules
 hexo/db.json
